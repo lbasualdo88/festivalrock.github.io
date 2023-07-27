@@ -1,0 +1,9 @@
+
+//////////////////vieja sintaxis///////////////////
+//@import 'base/variables';      ////////esta era la forma vieja de importar//
+//@import 'contenido/contenido'; ////////esta era la forma vieja de importar//
+
+
+/////////////////nueva sintaxis//////////////////
+@use 'base';      ///el USE lo compila//
+@use 'layout';
